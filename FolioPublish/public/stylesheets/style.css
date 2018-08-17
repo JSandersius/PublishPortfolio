@@ -1,8 +1,3 @@
-/* this is all CSS */
-
-/* =============================================================================
-   HTML5 CSS Reset Minified - Eric Meyer
-   ========================================================================== */
 
    html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
    body{line-height:1}
@@ -193,20 +188,6 @@ color: #72d7da;
 color: #51c2b3;
 }
 
-
-
-/*this is the code relevent to keyframes and CSS animations//*/
-@keyframes mymove {
-    0% {
-      top: 0px;  
-    }
-    50% {
-      top: 100px;
-    }
-    100% {
-      top: 0px;
-  }
-}
  
 .hovered {
   animation: mymove 3s;
@@ -216,7 +197,12 @@ color: #51c2b3;
   background: #b39ddb;
 }
 
-/*This is where the parallax code goes //*/
+
+
+/* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX */
+/* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX */
+/* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX */
+
 
 .parallax { 
     /* The image used */
@@ -239,22 +225,8 @@ color: #51c2b3;
   }
 }
 
-
-/* <--------PARALLAX CSS------------> */
-/* <--------PARALLAX CSS------------> */
-/* <--------PARALLAX CSS------------> */
-
-.bgimg-1,
-.bgimg-2,
-.bgimg-3,
-.bgimg-4,
-.bgimg-5,
-.bgimg-6,
-.bgimg-7, 
-.bgimg-8,
-.bgimg-9,
-.bgimg-10,
-.bgimg-11 {
+.bgimg
+ {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -291,17 +263,8 @@ h3 {
 /* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3,
-    .bgimg-4,
-    .bgimg-5,
-    .bgimg-6,
-    .bgimg-7, 
-    .bgimg-8,
-    .bgimg-9,
-    .bgimg-10,
-    .bgimg-11 {
+    .bgimg
+ {
         background-attachment: scroll;
     }
 }
@@ -311,26 +274,10 @@ h3 {
 
 /* ../images/volcano1.jpg */
 
-.bgimg-1 {
+.bgimg {
     background-image: url("particles-js");  
     min-height: 100%;
 }
-
-.bgimg-2 {
-    background-image: url("../images/volcano2.jpg");
-    min-height: 100%;
-}
-
-.bgimg-3 {
-    background-image: url("../images/volcano3.jpg");
-    min-height: 100%;
-}
-
-.bgimg-4 {
-    background-image: url("../images/volcano4.jpg");
-    min-height: 100%;
-}
-
 
 /* wrapper{
     position:relative;
@@ -375,6 +322,20 @@ h3 {
   background-size: 400% 400%;
   }
 
+
+
+  /*this is the code relevent to keyframes and CSS animations//*/
+@keyframes mymove {
+  0% {
+    top: 0px;  
+  }
+  50% {
+    top: 100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
 
 
 -webkit-animation: AnimationName 19s ease infinite;
