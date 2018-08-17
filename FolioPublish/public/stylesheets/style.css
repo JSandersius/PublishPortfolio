@@ -39,7 +39,6 @@ html {
     color: #777;
 }
 
-  
   html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
@@ -147,7 +146,7 @@ color: #72d7da;
 }
 
 #d {
-color: #5866ce;
+color: #7db9f8;
   }
 
 #e {
@@ -159,7 +158,7 @@ color: #4479ff;
   }
 
 #j {
-color: #616dc2;
+color: #8dc8ff;
 }
 
 #l {
@@ -183,7 +182,7 @@ color: #72d7da;
   }
   
 #s {
-color: #3d87a2;
+color: #56b7da;
   }
 
 #t {
@@ -241,6 +240,8 @@ color: #51c2b3;
 }
 
 
+/* <--------PARALLAX CSS------------> */
+/* <--------PARALLAX CSS------------> */
 /* <--------PARALLAX CSS------------> */
 
 .bgimg-1,
@@ -306,8 +307,9 @@ h3 {
 }
 
 
-
 /* 400px */
+
+
 .bgimg-1 {
     background-image: url("../images/volcano1.jpg");
     min-height: 100%;
@@ -382,9 +384,7 @@ wrapper{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 
-
-
-                    
+                
 background: linear-gradient(#3c4b47, #93aaa4, #3c4b47);
 background-size: 400% 400%;
 /* this works here but onece added into another file, malfunctions */
