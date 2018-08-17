@@ -40,9 +40,15 @@ html {
   
 
   canvas {
-  display:block;
-  vertical-align:bottom;
+    display:block;
+    background: rgb(33,36,50);
+    position: fixed;
+    z-index: -1;
   }
+
+  .mainElement {
+    position: absolute;
+}
 
 
 p {
@@ -227,8 +233,9 @@ color: #51c2b3;
 
 .bgimg
  {
+    background-color: transparent;
     position: relative;
-    opacity: 0.65;
+    /* opacity: 0.65; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -274,10 +281,11 @@ h3 {
 
 /* ../images/volcano1.jpg */
 
-.bgimg {
-    background-image: url("particles-js");  
-    min-height: 100%;
-}
+/* .bgimg { */
+    /* background-color: transparent; */
+    /* background-image: url("particles-js");   */
+    /* min-height: 100%; */
+/* } */
 
 /* wrapper{
     position:relative;
@@ -311,7 +319,7 @@ h3 {
     }
 
 
-  
+
   #particles-js{
   width: 100%;
   height: 100%;
