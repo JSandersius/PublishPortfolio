@@ -150,7 +150,7 @@ color: #7db9f8;
   }
 
 #e {
-color: #3c7bce; 
+color: #5596eb; 
   }
 
 #i {
@@ -309,9 +309,10 @@ h3 {
 
 /* 400px */
 
+/* ../images/volcano1.jpg */
 
 .bgimg-1 {
-    background-image: url("../images/volcano1.jpg");
+    background-image: url("particles-js");  
     min-height: 100%;
 }
 
@@ -330,20 +331,6 @@ h3 {
     min-height: 100%;
 }
 
-.bgimg-5 {
-    background-image: url("../images/volcano5.jpg");
-    min-height: 400px;
-}
-
-.bgimg-6 {
-    background-image: url("../images/volcano6.jpg");
-    min-height: 400px;
-}
-
-.bgimg-7 {
-    background-image: url("../images/volcano7.jpg");
-    min-height: 400px;
-}
 
 wrapper{
     position:relative;
