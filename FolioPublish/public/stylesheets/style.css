@@ -242,6 +242,8 @@ color: #51c2b3;
 
 .window
  {
+    background-image: url("../images/volcano1.jpg");  
+    min-height: 100%;
     background-color: transparent;
     position: relative;
     opacity: 0.65;
@@ -285,12 +287,6 @@ h3 {
     }
 }
 
-
-.window {
-    background-color: transparent;
-    background-image: url("particles-js");  
-    min-height: 100%;
-}
 
 /* wrapper{
     position:relative;
