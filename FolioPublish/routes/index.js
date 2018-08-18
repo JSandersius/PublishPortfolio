@@ -6,7 +6,6 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-
 /* GET projects page. */
 router.get('/', function (req, res, next) {
   res.render('projects', { title: 'Express' });
