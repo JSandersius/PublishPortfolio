@@ -381,13 +381,14 @@ wrapper{
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  }
 
 
 
                     
 background: linear-gradient(#3c4b47, #93aaa4, #3c4b47);
 background-size: 400% 400%;
-  }
+  
 /* this works here but onece added into another file, malfunctions */
 
 
