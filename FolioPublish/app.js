@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var ejs = require('ejs');
 var pug = require('pug');
+var materialize = require("materialize")
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
