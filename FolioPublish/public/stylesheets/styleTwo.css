@@ -10,12 +10,12 @@ body {
   background: #674172;
 }
 
-canvas {
+canvasTwo {
   display: block;
   vertical-align: bottom;
 }
 
-#particles {
+#particlesTwo {
   z-index: 4;
   height: 100%;
   height: 100vh;
