@@ -386,13 +386,13 @@ wrapper{
 
 
                     
-background: linear-gradient(#3c4b47, #93aaa4, #3c4b47);
-background-size: 400% 400%;
+/* background: linear-gradient(#3c4b47, #93aaa4, #3c4b47);
+background-size: 400% 400%; */
   
 /* this works here but onece added into another file, malfunctions */
 
 
--webkit-animation: AnimationName 19s ease infinite;
+/* -webkit-animation: AnimationName 19s ease infinite;
 -moz-animation: AnimationName 19s ease infinite;
 -o-animation: AnimationName 19s ease infinite;
 animation: AnimationName 19s ease infinite;
@@ -417,4 +417,4 @@ animation: AnimationName 19s ease infinite;
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
-}
+} */
