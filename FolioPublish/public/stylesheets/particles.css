@@ -1,0 +1,330 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+   html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+   body{line-height:1}
+   article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+   nav ul{list-style:none}
+   blockquote,q{quotes:none}
+   blockquote:before,blockquote:after,q:before,q:after{content:none}
+   a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+   mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+   del{text-decoration:line-through}
+   abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+   table{border-collapse:collapse;border-spacing:0}
+   hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+   input,select{vertical-align:middle}
+   li{list-style:none}
+   
+   
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,800');
+
+
+#particles canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+/*this is the code relevent to keyframes and CSS animations//*/
+@keyframes mymove {
+    0% {
+      top: 0px;  
+    }
+    50% {
+      top: 100px;
+    }
+    100% {
+      top: 0px;
+  }
+}
+ 
+.hovered {
+  animation: mymove 3s;
+}
+
+::selection {
+  background: #b39ddb;
+}
+
+/*This is where the parallax code goes //*/
+
+.parallax { 
+    /* The image used */
+    /* background-image: url("../public/images/fungi.jpg"); */
+
+    /* Set a specific height */
+    height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+      background-attachment: scroll;
+  }
+}
+
+
+/* <--------PARALLAX CSS------------> */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6,
+.bgimg-7, 
+.bgimg-8,
+.bgimg-9,
+.bgimg-10,
+.bgimg-11 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+
+
+/* <--------PARALLAX CSS------------> */
+/* <--------PARALLAX CSS------------> */
+/* <--------PARALLAX CSS------------> */
+/* <--------PARALLAX CSS------------> */
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6,
+.bgimg-7, 
+.bgimg-8,
+.bgimg-9,
+.bgimg-10,
+.window {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.window
+ {
+    background-image: url("../images/volcano1.jpg");  
+    min-height: 100%;
+    background-color: transparent;
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4,
+    .bgimg-5,
+    .bgimg-6,
+    .bgimg-7, 
+    .bgimg-8,
+    .bgimg-9,
+    .bgimg-10,
+    .bgimg-11 {
+        background-attachment: scroll;
+    }
+}
+/* <--------PARALLAX CSS------------> */
+/* <--------PARALLAX CSS------------> */
+/* <--------PARALLAX CSS------------> */
+/* <--------PARALLAX CSS------------> */
+
+
+
+
+
+/* SOMETHING TO TRY */
+/* SOMETHING TO TRY */
+/* SOMETHING TO TRY */
+wrapper{
+    position:relative;
+   }
+   iframe{
+     position:absolute;
+     top:0;
+     bottom:0;
+     left:0;
+     right:0;
+   }
+
+
+/* Make particles background */
+/* Make particles background */
+#particles canvas{
+    position: absolute;
+    width: 100%;
+    z-index : 999;
+}
+
+.myclass{
+    z-index : 99999;
+    }
+
+
+
+
+
+
+    /* divider
+    divider
+    divider */
+
+
+/* This is where the css for the particles background starts */
+html,body{ 
+    width:100%;
+    height:100%;
+    /* background:#111; */
+  }
+  
+  html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+  }
+  
+  canvas{
+  display:block;
+  vertical-align:bottom;
+  }
+  
+  
+  /* ---- particles.js container ---- */
+  
+  #particles-js{
+  width: 100%;
+  height: 100%;
+  /* background-image: url(''); */
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  }
+
+background: linear-gradient(#270deg, #93aaa4, #3c4b47);
+background-size: 400% 400%;
+
+/* gradient change css */
+
+-webkit-animation: AnimationName 19s ease infinite;
+-moz-animation: AnimationName 19s ease infinite;
+-o-animation: AnimationName 19s ease infinite;
+animation: AnimationName 19s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+  
+
+
+
