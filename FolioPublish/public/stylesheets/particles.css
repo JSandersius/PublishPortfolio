@@ -21,12 +21,156 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,800');
 
+body {
+  font-family: monospace;
+  width: 100%;
+}
 
 #particles canvas{
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+
+
+p {
+  margin-left: 30px;
+  margin-bottom: -10px;
+  font-size: 20px;
+}
+
+button {
+  font-size: 1em;
+  font-family: monospace;
+  background-color: #f8bbd0;
+  cursor: pointer;
+  border-width: 0em;
+  padding: .5em;
+  border-style: solid;
+  color: #fff;
+}
+
+.purple {
+  background-color: #a7a6ff;
+}
+
+.blue {
+  background-color: #86c5ff;
+}
+
+.green {
+  background-color: #99b1ff;
+}
+
+#links {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-right: 60px;
+  text-align: right;
+}
+
+#name {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  margin-left: 40px;
+  display: block;
+}
+
+.about {
+    height: 1000px;
+    margin-left: 40px;
+    display: block;
+}
+
+.projects {
+    height: 1000px;
+    margin-left: 40px;
+    display: block;
+}
+
+.contact {
+    height: 300px;
+    margin-left: 40px;
+    display: block;
+}
+
+.letter {
+  font-size: 200px;
+  line-height: 110px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: -20px;
+  mix-blend-mode: color-burn;
+  position: relative;
+  transition: top ease 0.1s;
+  transition-delay: 2s;
+  opacity: 0.9;
+}
+
+
+#a {
+color: #2196f3;
+  }
+
+#b {
+color: #72d7da;
+  }
+
+#c {
+color: #72d7da;
+}
+
+#d {
+color: #5866ce;
+  }
+
+#e {
+color: #3c7bce; 
+  }
+
+#i {
+color: #4479ff;
+  }
+
+#j {
+color: #616dc2;
+}
+
+#l {
+color: #47a9f4;
+  }
+
+#n {
+color: #00bcd4;
+  }
+
+#o {
+color: #72d7da;
+}
+
+#p {
+color: #72d7da;
+}
+
+#r {
+color: #72d7da;
+  }
+  
+#s {
+color: #3d87a2;
+  }
+
+#t {
+color: #72d7da;
+}
+
+#u {
+color: #51c2b3;
 }
 
 
@@ -104,7 +248,40 @@ html {
     background-size: cover;
 }
 
+/* .bgimg-1 {
+    background-image: url("../images/volcano1.jpg");
+    min-height: 100%;
+}
 
+.bgimg-2 {
+    background-image: url("../images/volcano2.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("../images/volcano3.jpg");
+    min-height: 400px;
+}
+
+.bgimg-4 {
+    background-image: url("../images/volcano4.jpg");
+    min-height: 400px;
+}
+
+.bgimg-5 {
+    background-image: url("../images/volcano5.jpg");
+    min-height: 400px;
+}
+
+.bgimg-6 {
+    background-image: url("../images/volcano6.jpg");
+    min-height: 400px;
+}
+
+.bgimg-7 {
+    background-image: url("../images/volcano7.jpg");
+    min-height: 400px;
+} */
 
 .caption {
     position: absolute;
@@ -132,11 +309,32 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 
-
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4,
+    .bgimg-5,
+    .bgimg-6,
+    .bgimg-7, 
+    .bgimg-8,
+    .bgimg-9,
+    .bgimg-10,
+    .bgimg-11 {
+        background-attachment: scroll;
+    }
+}
 /* <--------PARALLAX CSS------------> */
 /* <--------PARALLAX CSS------------> */
 /* <--------PARALLAX CSS------------> */
 /* <--------PARALLAX CSS------------> */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
 
 .bgimg-1,
 .bgimg-2,
@@ -148,7 +346,7 @@ h3 {
 .bgimg-8,
 .bgimg-9,
 .bgimg-10,
-.window {
+.bgimg-11 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -159,17 +357,40 @@ h3 {
 }
 
 
-.window
- {
-    background-image: url("../images/volcano1.jpg");  
+/* 400px */
+.bgimg-1 {
+    background-image: url("../images/volcano1.jpg");
     min-height: 100%;
-    background-color: transparent;
-    position: relative;
-    opacity: 0.65;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.bgimg-2 {
+    background-image: url("../images/volcano2.jpg");
+    min-height: 100%;
+}
+
+.bgimg-3 {
+    background-image: url("../images/volcano3.jpg");
+    min-height: 100%;
+}
+
+.bgimg-4 {
+    background-image: url("../images/volcano4.jpg");
+    min-height: 100%;
+}
+
+.bgimg-5 {
+    background-image: url("../images/volcano5.jpg");
+    min-height: 400px;
+}
+
+.bgimg-6 {
+    background-image: url("../images/volcano6.jpg");
+    min-height: 400px;
+}
+
+.bgimg-7 {
+    background-image: url("../images/volcano7.jpg");
+    min-height: 400px;
 }
 
 .caption {
@@ -286,14 +507,17 @@ html,body{
   #particles-js{
   width: 100%;
   height: 100%;
+  background-color: #b61924;
   /* background-image: url(''); */
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  }
 
-background: linear-gradient(#270deg, #93aaa4, #3c4b47);
+  background: linear-gradient(270deg, #93aaa4, #3c4b47);
 background-size: 400% 400%;
+
+
+
 
 /* gradient change css */
 
@@ -323,7 +547,7 @@ animation: AnimationName 19s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-
+}
   
 
 
