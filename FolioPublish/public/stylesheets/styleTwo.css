@@ -9,16 +9,10 @@ body {
   margin: 0;
 }
 
-canvasTwo {
-  display: block;
-  vertical-align: bottom;
-}
-
 #particlesTwo {
   z-index: 4;
   height: 100%;
   height: 100vh;
-  background: #674172;
 }
 
 .sec {
