@@ -3,9 +3,9 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-// var ejs = require('ejs');
-// var pug = require('pug');
-// var materialize = require("materialize")
+var ejs = require('ejs');
+var pug = require('pug');
+
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
