@@ -78,6 +78,9 @@ iframe {
          right:0;
        }
 
+.scrollingTime{ 
+
+}
 
 /* BUTTONS *//* BUTTONS *//* BUTTONS */
 /* BUTTONS *//* BUTTONS *//* BUTTONS */
@@ -230,8 +233,6 @@ color: #51c2b3;
  
 
 
-
-
 /* <--------PARALLAX CSS------------> */
 /* <--------PARALLAX CSS------------> */
 /* <--------PARALLAX CSS------------> */
@@ -260,7 +261,7 @@ color: #51c2b3;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/volcano1.jpg");
+    background-image: url("bgimg-1");
     min-height: 100%;
 }
 
@@ -284,22 +285,12 @@ color: #51c2b3;
 
 /* <--------PARALLAX CSS------------> */
 /* <--------PARALLAX CSS------------> */
-/* <--------PARALLAX CSS------------> */
-/* <--------PARALLAX CSS------------> */
-
-/* SOMETHING TO TRY */
-wrapper{
-    position:relative;
-   }
-   iframe{
-     position:absolute;
-     top:0;
-     bottom:0;
-     left:0;
-     right:0;
-   }
+/* END *//* END *//* END *//* END */
+/* END *//* END *//* END *//* END */
 
 
+/* START *//* START *//* START */
+/* START *//* START *//* START */
 /* PARTICLES *//* PARTICLES */
 /* PARTICLES *//* PARTICLES */
 /* PARTICLES *//* PARTICLES */
@@ -326,7 +317,7 @@ wrapper{
 #particles-js {
 width: 100%;
 height: 100%;
-background-color: #b61924;
+/* background-color: #b61924; */
   /* background-image: url(''); */
 background-size: cover;
 background-position: 50% 50%;
@@ -377,7 +368,6 @@ animation: AnimationName 19s ease infinite;
   /* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
-
     .window
      {
         background-attachment: scroll;
