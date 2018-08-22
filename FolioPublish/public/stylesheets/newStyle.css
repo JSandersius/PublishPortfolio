@@ -602,17 +602,8 @@ html {
     color: #777;
 }
 
-.bgimg-1,
-.bgimg-2,
-.bgimg-3,
-.bgimg-4,
-.bgimg-5,
-.bgimg-6,
-.bgimg-7, 
-.bgimg-8,
-.bgimg-9,
-.bgimg-10,
-.bgimg-11 {
+.window
+ {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -621,40 +612,12 @@ html {
     background-size: cover;
 }
 
-/* .bgimg-1 {
+.window {
     background-image: url("../images/volcano1.jpg");
     min-height: 100%;
 }
 
-.bgimg-2 {
-    background-image: url("../images/volcano2.jpg");
-    min-height: 400px;
-}
 
-.bgimg-3 {
-    background-image: url("../images/volcano3.jpg");
-    min-height: 400px;
-}
-
-.bgimg-4 {
-    background-image: url("../images/volcano4.jpg");
-    min-height: 400px;
-}
-
-.bgimg-5 {
-    background-image: url("../images/volcano5.jpg");
-    min-height: 400px;
-}
-
-.bgimg-6 {
-    background-image: url("../images/volcano6.jpg");
-    min-height: 400px;
-}
-
-.bgimg-7 {
-    background-image: url("../images/volcano7.jpg");
-    min-height: 400px;
-} */
 
 .caption {
     position: absolute;
@@ -683,17 +646,8 @@ h3 {
 /* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3,
-    .bgimg-4,
-    .bgimg-5,
-    .bgimg-6,
-    .bgimg-7, 
-    .bgimg-8,
-    .bgimg-9,
-    .bgimg-10,
-    .bgimg-11 {
+    .window
+     {
         background-attachment: scroll;
     }
 }
@@ -709,17 +663,8 @@ html {
     color: #777;
 }
 
-.bgimg-1,
-.bgimg-2,
-.bgimg-3,
-.bgimg-4,
-.bgimg-5,
-.bgimg-6,
-.bgimg-7, 
-.bgimg-8,
-.bgimg-9,
-.bgimg-10,
-.bgimg-11 {
+.window
+{
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -731,39 +676,9 @@ html {
 
 
 /* 400px */
-.bgimg-1 {
+.window {
     background-image: url("../images/volcano1.jpg");
     min-height: 100%;
-}
-
-.bgimg-2 {
-    background-image: url("../images/volcano2.jpg");
-    min-height: 100%;
-}
-
-.bgimg-3 {
-    background-image: url("../images/volcano3.jpg");
-    min-height: 100%;
-}
-
-.bgimg-4 {
-    background-image: url("../images/volcano4.jpg");
-    min-height: 100%;
-}
-
-.bgimg-5 {
-    background-image: url("../images/volcano5.jpg");
-    min-height: 400px;
-}
-
-.bgimg-6 {
-    background-image: url("../images/volcano6.jpg");
-    min-height: 400px;
-}
-
-.bgimg-7 {
-    background-image: url("../images/volcano7.jpg");
-    min-height: 400px;
 }
 
 .caption {
@@ -794,17 +709,8 @@ h3 {
 
 @media only screen and (max-device-width: 1024px) {
 
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3,
-    .bgimg-4,
-    .bgimg-5,
-    .bgimg-6,
-    .bgimg-7, 
-    .bgimg-8,
-    .bgimg-9,
-    .bgimg-10,
-    .bgimg-11 {
+    .window
+     {
         background-attachment: scroll;
     }
 }
@@ -843,11 +749,6 @@ wrapper{
 .myclass{
     z-index : 99999;
     }
-
-
-
-
-
 
     /* divider
     divider
@@ -888,9 +789,6 @@ html,body{
 
   background: linear-gradient(270deg, #93aaa4, #3c4b47);
 background-size: 400% 400%;
-
-
-
 
 /* gradient change css */
 
