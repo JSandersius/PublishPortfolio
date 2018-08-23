@@ -20,7 +20,36 @@ these elements get their image(background) from this css
         background-image: url("particles-js");
         min-height: 100%;
     }
-</style>
 
 
-this is what the css looks like for the particles.js element
+
+    this is what the css looks like for the particles.js element #particles canvas {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+
+    */ * .myclass {
+        z-index: 99999;
+    }
+
+    #particles-js {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background: linear-gradient(270deg, #93aaa4, #3c4b47);
+        background-size: 400% 400%;
+
+
+
+        within particles.js there is a function that exports canvas as 'image/png',
+        this looks like the most promising,
+        lets see how this thing works <script>pJS.fn.vendors.exportImg=function() {
+            window.open(pJS.canvas.el.toDataURL('image/png'),
+            '_blank');
+        }
+        ;
+        </script>
