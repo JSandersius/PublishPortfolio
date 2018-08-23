@@ -1,5 +1,5 @@
-How to make parallax work with particles.js.. well these are the windows in between sections that show the particling in
-all its glory
+<!-- How to make parallax work with particles.js.. well these are the windows in between sections that show the particling in
+all its glory -->
 
 <div class="window">
     <div class="caption">
@@ -8,7 +8,7 @@ all its glory
 
 
 
-these elements get their image(background) from this css
+<!-- these elements get their image(background) from this css -->
 <style>
     .window {
         position: relative;
@@ -23,14 +23,16 @@ these elements get their image(background) from this css
 
 
 
-    this is what the css looks like for the particles.js element #particles canvas {
+    /* this is what the css looks like for the particles.js element  */
+
+    #particles canvas {
         position: absolute;
         height: 100%;
         width: 100%;
         z-index: -1;
     }
 
-    */ * .myclass {
+    .myclass {
         z-index: 99999;
     }
 
@@ -45,11 +47,17 @@ these elements get their image(background) from this css
 
 
 
-        within particles.js there is a function that exports canvas as 'image/png',
+        /* within particles.js there is a function that exports canvas as 'image/png',
         this looks like the most promising,
-        lets see how this thing works <script>pJS.fn.vendors.exportImg=function() {
+        lets see how this thing works  */
+        <script>pJS.fn.vendors.exportImg=function() {
             window.open(pJS.canvas.el.toDataURL('image/png'),
             '_blank');
         }
         ;
-        </script>
+        </script>/* DIVIDE */
+        /* DIVIDE */
+        /* DIVIDE */
+        /* DIVIDE */
+        /* OK this is proving a bit difficult to get the JS to do what I need,
+        perhaps setitng the body background as particles.js and set the .window class to transparent */

@@ -300,9 +300,9 @@ color: #51c2b3;
     height: 100%;
     width: 100%;
     z-index : -1;
-} */
+} 
 
-* .myclass {
+.myclass {
     z-index : 99999;
 }
  
