@@ -261,7 +261,7 @@ color: #51c2b3;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("bgimg-1");
+    background-image: url("particles-js");
     min-height: 100%;
 }
 
@@ -295,7 +295,7 @@ color: #51c2b3;
 /* PARTICLES *//* PARTICLES */
 /* PARTICLES *//* PARTICLES */
 
-#particles canvas{
+#particles canvas {
     position: absolute;
     width: 100%;
     z-index : 999;
@@ -306,18 +306,18 @@ color: #51c2b3;
 }
 
 
-#particles canvas {
+/* #particles canvas {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: -1;
-}  
+}   */
  
 
 #particles-js {
 width: 100%;
 height: 100%;
-/* background-color: #b61924; */
+
   /* background-image: url(''); */
 background-size: cover;
 background-position: 50% 50%;
@@ -325,7 +325,6 @@ background-repeat: no-repeat;
 background: linear-gradient(270deg, #93aaa4, #3c4b47);
 background-size: 400% 400%;
 
-/* gradient change css */
 
 -webkit-animation: AnimationName 19s ease infinite;
 -moz-animation: AnimationName 19s ease infinite;
