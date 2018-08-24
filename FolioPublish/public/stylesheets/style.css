@@ -236,7 +236,7 @@ color: #51c2b3;
 
 .parallax { 
     /* The image used */
-    /* background-image: url("../public/images/volcano.jpg"); */
+    /* background-image: url("../images/volcano1.jpg"); */
     /* Set a specific height */
     height: 1000px; 
     /* Create the parallax scrolling effect */
@@ -253,7 +253,7 @@ color: #51c2b3;
 {
     background-image: url("../images/volcano1.jpg");
     position: relative;
-    opacity: 0.65;
+    opacity: .1;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
