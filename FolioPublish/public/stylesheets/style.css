@@ -28,6 +28,7 @@ html {
 }
 
 body {
+    background-image: url("../images/volcano3.jpg");
     font-family: monospace;
     width: 100%;
     font:normal 75% Arial, Helvetica, sans-serif;
