@@ -271,7 +271,7 @@ color: #51c2b3;
     /* The image used */
     /* background-image: url("../images/volcano1.jpg"); */
     /* Set a specific height */
-    height: 1000px; 
+    height: 10000px; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -281,7 +281,8 @@ color: #51c2b3;
 
 
 .window {
-    background-image: url("../images/volcano3.jpg");
+    /* background-image: url("../images/volcano3.jpg"); */
+    /* background-attachment:  */
     position: relative;
     opacity: .2;
     background-attachment: fixed;
@@ -323,8 +324,8 @@ color: #51c2b3;
 /* PARTICLES *//* PARTICLES */
 
 #particles canvas {
-  /* position: relative; */
-    position: absolute;
+  position: relative;
+    /* position: absolute; */
     height: 100%;
     width: 100%;
     z-index : -1;
@@ -336,12 +337,13 @@ color: #51c2b3;
  
 #particles-js {
 width: 100%;
-height: 100%;
+height: 1000px;
 background-size: cover;
 background-position: 50% 50%;
 background-repeat: no-repeat;
 background: linear-gradient(270deg, #93aaa4, #3c4b47);
 background-size: 400% 400%;
+z-index: -1000; 
  /* background-image: url(''); */
 
 
