@@ -281,7 +281,7 @@ color: #51c2b3;
 
 
 .window {
-    /* background-image: url("../images/volcano3.jpg"); */
+    background-image: src("particles.html");
     /* background-attachment:  */
     position: relative;
     opacity: .2;
