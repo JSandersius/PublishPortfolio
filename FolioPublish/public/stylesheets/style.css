@@ -283,7 +283,7 @@ color: #51c2b3;
 
 
 .window {
-    /* background-image: src="particles.html"; */
+    background-image: src="particles.html";
     /* background-attachment:  */
     position: relative;
     opacity: .2;
@@ -316,9 +316,6 @@ color: #51c2b3;
 /* <--------PARALLAX CSS------------> */
 /* END *//* END *//* END *//* END */
 /* END *//* END *//* END *//* END */
-
-
-
 /* START *//* START *//* START */
 /* START *//* START *//* START */
 /* PARTICLES *//* PARTICLES */
@@ -330,7 +327,7 @@ color: #51c2b3;
     position: absolute;
     height: 100%;
     width: 100%;
-    z-index : -1;
+    z-index : -100;
 } 
 
 .myclass {
