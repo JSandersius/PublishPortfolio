@@ -322,8 +322,9 @@ color: #51c2b3;
 /* PARTICLES *//* PARTICLES */
 /* PARTICLES *//* PARTICLES */
 
+
+/* position: relative; */
 #particles canvas {
-  /* position: relative; */
     position: absolute;
     height: 100%;
     width: 100%;
