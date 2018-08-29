@@ -68,7 +68,7 @@ wrapper {
        }
 
 iframe {
-        display:block;
+        /* display:block; */
         vertical-align:bottom;
          /* position:absolute;
          top:0;
@@ -326,8 +326,8 @@ color: #51c2b3;
 /* PARTICLES *//* PARTICLES */
 
 #particles canvas {
-  position: relative;
-    /* position: absolute; */
+  /* position: relative; */
+    position: absolute;
     height: 100%;
     width: 100%;
     z-index : -1;
