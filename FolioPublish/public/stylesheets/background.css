@@ -16,7 +16,7 @@ li{list-style:none}
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,800');
  
-body,
+/* body,
 html {
  height: 100%;
  width:100%;
@@ -25,14 +25,14 @@ html {
  color: #777;
  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   /* background:#111; */
-}
+/* }  */
 
-body {
- /* background-image: url("../images/volcano3.jpg"); */
+/* body {
+
  font-family: monospace;
  width: 100%;
  font:normal 75% Arial, Helvetica, sans-serif;
-}
+} */
 
 p {
 margin-left: 30px;
