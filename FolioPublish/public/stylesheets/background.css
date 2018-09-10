@@ -1,18 +1,3 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body{line-height:1}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
-nav ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
-del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
-input,select{vertical-align:middle}
-li{list-style:none}
-
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,800');
  
@@ -34,13 +19,13 @@ html {
  font:normal 75% Arial, Helvetica, sans-serif;
 } */
 
-p {
+/* p {
 margin-left: 30px;
 margin-bottom: -10px;
 font-size: 20px;
-}
+} */
 
-button {
+/* button {
 font-size: 1em;
 font-family: monospace;
 background-color: #f8bbd0;
@@ -49,59 +34,59 @@ border-width: 0em;
 padding: .5em;
 border-style: solid;
 color: #fff;
-}
+} */
 
-h3 {
+/* h3 {
  letter-spacing: 5px;
  text-transform: uppercase;
  font: 20px "Lato", sans-serif;
  color: #111;
-}
+} */
 
-wrapper {
+/* wrapper {
      position:relative;
-    }
+    } */
 
-iframe {
+/* iframe { */
      /* display:block; */
-     vertical-align:bottom;
+     /* vertical-align:bottom; */
       /* position:absolute;
       top:0;
       bottom:0;
       left:0;
       right:0; */
-    }
+    /* } */
 
-.scrollingTime { 
+/* .scrollingTime { 
 
-}
+} */
 
 
 /* DIVIDER *//* DIVIDER *//* DIVIDER */
 /* DIVIDER *//* DIVIDER *//* DIVIDER */
 /* DIVIDER *//* DIVIDER *//* DIVIDER */
-#wrapper {
+/* #wrapper {
 position: relative;
 width: 200px;
 height: 200px;
-}
+} */
 
-.content {
+/* .content {
 color: #FFFFFF;
 font-size: 26px;
 font-weight: bold;
 text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
 position: relative;
 z-index: 100;
-}
+} */
 
-.background {
+/* .background {
 color: #999999;
 position: absolute;
 top: 0;
 left: 0;
 z-index: -100;
-}
+} */
 /* DIVIDER *//* DIVIDER *//* DIVIDER */
 /* DIVIDER *//* DIVIDER *//* DIVIDER */
 /* DIVIDER *//* DIVIDER *//* DIVIDER */
@@ -109,7 +94,7 @@ z-index: -100;
 /* BUTTONS *//* BUTTONS *//* BUTTONS */
 /* BUTTONS *//* BUTTONS *//* BUTTONS */
 
-.buttonOne {
+/* .buttonOne {
 background-color: #a7a6ff;
 }
 
@@ -119,47 +104,47 @@ background-color: #86c5ff;
 
 .buttonThree {
 background-color: #99b1ff;
-}
+} */
 
 /* BUTTONS *//* BUTTONS *//* BUTTONS */
 /* BUTTONS *//* BUTTONS *//* BUTTONS */
 
-#links {
+/* #links {
 font-size: 20px;
 margin-top: 30px;
 margin-right: 60px;
 text-align: right;
-}
+} */
 
-#name {
+/* #name {
 margin-top: 50px;
 margin-bottom: 30px;
-}
+} */
 
-.logo {
+/* .logo {
 margin-left: 40px;
 display: block;
-}
+} */
 
-.about {
+/* .about {
  height: 300px;
  margin-left: 40px;
  display: block;
-}
+} */
 
-.projects {
+/* .projects {
  height: 300px;
  margin-left: 40px;
  display: block;
-}
+} */
 
-.contact {
+/* .contact {
  height: 300px;
  margin-left: 40px;
  display: block;
-}
+} */
 
-.letter {
+/* .letter {
 font-size: 200px;
 line-height: 110px;
 font-family: 'Lato', sans-serif;
@@ -170,18 +155,18 @@ position: relative;
 transition: top ease 0.1s;
 transition-delay: 2s;
 opacity: 0.9;
-}
+} */
 
-.hovered {
+/* .hovered {
  animation: mymove 2.5s;
-}
+} */
 
-::selection {
+/* ::selection {
  background: #b39ddb;
-}
+} */
 
 
-#a {
+/* #a {
 color: #2196f3;
 }
 
@@ -239,7 +224,7 @@ color: #72d7da;
 
 #u {
 color: #51c2b3;
-}
+} */
 
 
 /*this is the code relevent to keyframes and CSS animations//*/
