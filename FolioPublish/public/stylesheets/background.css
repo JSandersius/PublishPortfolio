@@ -228,7 +228,7 @@ color: #51c2b3;
 
 
 /*this is the code relevent to keyframes and CSS animations//*/
-@keyframes mymove {
+/* @keyframes mymove {
  0% {
    top: 0px;  
  }
@@ -238,7 +238,7 @@ color: #51c2b3;
  100% {
    top: 0px;
 }
-}
+} */
 
 
 
@@ -247,49 +247,49 @@ color: #51c2b3;
 /* <--------PARALLAX CSS------------> */
 /* <--------PARALLAX CSS------------> */
 
-.parallax { 
+/* .parallax {  */
  /* The image used */
  /* background-image: url("../images/volcano1.jpg"); */
  /* Set a specific height */
- height: 10000px; 
+ /* height: 10000px;  */
  /* Create the parallax scrolling effect */
- background-attachment: fixed;
+ /* background-attachment: fixed;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
-}
+} */
 
 
-.window {
- background-image: src="particles.html";
+/* .window {
+ background-image: src="particles.html"; */
  /* background-attachment:  */
- position: relative;
+ /* position: relative;
  opacity: .2;
  background-attachment: fixed;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
- background-color: transparent;
+ background-color: transparent; */
  /* background-image: url('image/png'); */
- min-height: 1000px;
-}
+ /* min-height: 1000px;
+} */
 
-.caption {
+/* .caption {
  position: absolute;
  left: 0;
  top: 50%;
  width: 100%;
  text-align: center;
  color: #000;
-}
+} */
 
-.caption span.border {
+/* .caption span.border {
  background-color: #111;
  color: #fff;
  padding: 18px;
  font-size: 25px;
  letter-spacing: 10px;
-}
+} */
 /* <--------PARALLAX CSS------------> */
 /* <--------PARALLAX CSS------------> */
 /* END *//* END *//* END *//* END */
@@ -306,12 +306,12 @@ color: #51c2b3;
 
 
 /* position: relative; */
-#particles canvas {
+/* #particles canvas {
  position: absolute;
  height: 100%;
  width: 100%;
  z-index : -100;
-} 
+}  */
 
 canvas {
     display:block;
@@ -319,9 +319,9 @@ canvas {
     position: absolute;
     }
 
-.myclass {
+/* .myclass {
  z-index : 99999;
-}
+} */
 
 /* ---- particles.js container ---- */
 #particles-js {
